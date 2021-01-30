@@ -1,4 +1,4 @@
-    //  First Class Solution:
+       //  First Class Solution:
 document.getElementById('plusButton').addEventListener("click", function(){
     totalCount(true);
 })
@@ -45,11 +45,11 @@ function totalCountEco(isIncrease){
     subTotal();
     vat();
 }
-// // SubTotal Solution: 
+
+         // SubTotal Solution: 
 function subTotal(){
     const  inpFc = document.getElementById('inputFastClass');
     const ticketF  = parseInt(inpFc.value);
-
 
     const  inpEc = document.getElementById('inputEcoClass');
     const ticketE  = parseInt(inpEc.value);
